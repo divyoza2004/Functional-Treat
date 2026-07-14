@@ -85,3 +85,6 @@ Implement the following functionalities:
 
 - Use __doc__ within each function to describe its purpose.
 - Provide clear instructions within the menu interface.
+
+## Output of Code 
+
