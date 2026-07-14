@@ -2,6 +2,7 @@ print("Welcome to the Data Analyzer and Transfomer  Program\n")
 array1d = []
 
 def input_data():
+    """----Add Input Data----"""
     user_input = input("Enter data for a 1D array (separated by spaces): ")
     string_list = user_input.split()
     for item in string_list:
@@ -10,12 +11,12 @@ def input_data():
     print("Data has been stored successfully!")
      
 def summary_data():
+    """----Summary Data Details----"""
     array_length = len(array1d)
     array_min = min(array1d)
     array_max = max(array1d)
     array_sum = sum(array1d)
     array_average = array_sum/len(array1d)
-    print("\nData Summary:")
     print(f"1. Total elements: {array_length}")
     print(f"2. Minimum value: {array_min}")
     print(f"3. Maximum value: {array_max}")
@@ -23,17 +24,20 @@ def summary_data():
     print(f"Average value: {array_average}")
     
 def factorial(n):
+    """----Factorial----"""
     if n==0 or n==1:
         return 1
     return n * factorial(n-1)
 
 def filter_data():
+    """----Filter Data----"""
     threshold = int(input("Enter a threshold value: "))
     result = list(filter(lambda x: x >= threshold, array1d))
     print("Filtered Data (values >=", threshold, "):")
     print(*result)
     
 def sort_data():
+    """----Sorted Array----"""
     print("Choose Sorting option: ")
     print("1. Ascending order") 
     print("2. Descending order")
@@ -51,6 +55,7 @@ def sort_data():
         print("Error: Invalid User Inputs") 
 
 def statistics(array1d):
+    """----Statistics Datasets Information----"""
     minimum = min(array1d)
     maximum = max(array1d)
     total = sum(array1d)
@@ -69,18 +74,24 @@ while True:
     x =  int(input("\nEnter your choice: ")) 
     match x:
         case 1:
+            print(input_data.__doc__)
             input_data()
         case 2:
+            print(summary_data.__doc__)
             summary_data()
         case 3: 
+            print(factorial.__doc__)
             num = int(input("Enter a positive number and above zero: "))
             print(f"Factorial of {num} is: {factorial(num)}") 
         case 4:
+            print(filter_data.__doc__)
             filter_data()
         case 5:
+            print(sort_data.__doc__)
             sort_data()
         case 6:
             min, max, total, average = statistics(array1d)
+            print(statistics.__doc__)
             print(f"Minimum = {min}") 
             print(f"Maximum = {max}") 
             print(f"Total = {total}") 
