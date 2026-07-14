@@ -86,5 +86,17 @@ Implement the following functionalities:
 - Use __doc__ within each function to describe its purpose.
 - Provide clear instructions within the menu interface.
 
+## ▶ Demo Video
+
+<a href="https://drive.google.com/file/d/1qXj0XwXhMrAhzs6iRmYEFLChqDCnXhsq/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/▶-Watch%20Demo%20Video-181717?style=for-the-badge&logo=github&logoColor=white" alt="Watch Demo Video" />
+</a>
+
 ## Output of Code 
+<img width="708" height="862" alt="image" src="https://github.com/user-attachments/assets/f927c51b-4ef4-4307-ac1d-0937ce2cf662" /> 
+<img width="559" height="745" alt="image" src="https://github.com/user-attachments/assets/5acd92b5-8113-4831-aec7-81032fc6969e" />
+<img width="631" height="456" alt="image" src="https://github.com/user-attachments/assets/f2691233-7a54-4df2-ab02-696dbe2712b8" /> 
+<img width="577" height="742" alt="image" src="https://github.com/user-attachments/assets/7f07c4f8-c764-4ae5-9e5c-a8946cd54435" />
+
+
 
