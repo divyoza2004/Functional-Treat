@@ -1,4 +1,4 @@
-print("Welcome to the Data Analyzer and Transfomer  Program\n") 
+print("Welcome to the Data Analyzer and Transfomer Program") 
 array1d = []
 
 def input_data():
@@ -10,18 +10,11 @@ def input_data():
         array1d.append(number)
     print("Data has been stored successfully!")
      
-def summary_data():
-    """----Summary Data Details----"""
-    array_length = len(array1d)
-    array_min = min(array1d)
-    array_max = max(array1d)
-    array_sum = sum(array1d)
-    array_average = array_sum/len(array1d)
-    print(f"1. Total elements: {array_length}")
-    print(f"2. Minimum value: {array_min}")
-    print(f"3. Maximum value: {array_max}")
-    print(f"4. Sum of all values: {array_sum}")
-    print(f"Average value: {array_average}")
+def display_summary(**kwargs):
+    """Print out any dataset details passed to it."""
+    print("\n--- Dataset Summary ---")
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
     
 def factorial(n):
     """----Factorial----"""
@@ -45,7 +38,7 @@ def sort_data():
     if y==1:
         array = sorted(array1d)
         print("Sorted Data in Ascending order: ")
-        print(*array) 
+        print(*array)  
     elif y==2:
         array = sorted(array1d)
         print("Sorted Data in Descending order: ")
@@ -77,8 +70,8 @@ while True:
             print(input_data.__doc__)
             input_data()
         case 2:
-            print(summary_data.__doc__)
-            summary_data()
+            print(display_summary.__doc__)
+            display_summary(total_elements = len(array1d), minimum_value = min(array1d), maximum_value = max(array1d), sum = sum(array1d))
         case 3: 
             print(factorial.__doc__)
             num = int(input("Enter a positive number and above zero: "))
@@ -100,4 +93,4 @@ while True:
             print("Session Closed, GoodBye!") 
             break
         case _:
-            print("Error: Invalid User Input")
+            print("Error: Invalid User Input")      
