@@ -93,10 +93,14 @@ Implement the following functionalities:
 </a>
 
 ## Output of Code 
-<img width="708" height="862" alt="image" src="https://github.com/user-attachments/assets/f927c51b-4ef4-4307-ac1d-0937ce2cf662" /> 
-<img width="559" height="745" alt="image" src="https://github.com/user-attachments/assets/5acd92b5-8113-4831-aec7-81032fc6969e" />
-<img width="631" height="456" alt="image" src="https://github.com/user-attachments/assets/f2691233-7a54-4df2-ab02-696dbe2712b8" /> 
-<img width="577" height="742" alt="image" src="https://github.com/user-attachments/assets/7f07c4f8-c764-4ae5-9e5c-a8946cd54435" />
+<img width="839" height="666" alt="image" src="https://github.com/user-attachments/assets/4dd72c4e-c35b-4f0d-a692-75a61a970304" /> 
+<img width="510" height="820" alt="image" src="https://github.com/user-attachments/assets/2ce73cb8-1a38-420a-94f5-2e1d1e145c99" /> 
+<img width="660" height="838" alt="image" src="https://github.com/user-attachments/assets/a9e30b87-ba86-49af-aea0-acc7ac444707" /> 
+<img width="717" height="515" alt="image" src="https://github.com/user-attachments/assets/9917d5d5-9f0b-43b6-8f2b-208a8141ebcd" />
+
+
+
+
 
 
 
